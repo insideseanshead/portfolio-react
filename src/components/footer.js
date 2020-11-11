@@ -4,7 +4,7 @@ import "./footer.css"
 function Footer() {
   return (
     <footer className="footer">
-    <p>Magnus Appel</p>
+    <p id="namecopy">&copy;Magnus Appel</p>
   </footer>
   );
 }

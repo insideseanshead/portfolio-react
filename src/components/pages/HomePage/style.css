@@ -24,3 +24,18 @@ img {
 p {
     color: black;
 }
+
+
+.nav-link, .navbar-brand {
+    color: white;
+}
+
+#navbarNav {
+    justify-content: flex-end;
+    font-style: normal;
+}
+
+.navbar-brand {
+    font-weight: bolder;
+    
+}

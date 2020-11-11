@@ -1,3 +1,8 @@
 body {
+  background-color: unset !important;
   background-image: url("./grayscale.jpg")
+}
+
+.body-image {
+  background-image: url("./grayscale.jpg") 
 }
