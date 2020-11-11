@@ -5,7 +5,6 @@ import family from "../../../assets/family-bobs.png"
 function Home() {
   return (
    <div>
-      <body>
         <div className="container">
             <h1>Welcome!</h1>
         <div className="row" id="row-one">
@@ -27,14 +26,13 @@ function Home() {
 
         </div>
             <div className="col">
-            <img src={family} id="family" alt="animated family" />
+            <img src={family} id="family" alt="family animated" />
          </div>
         </div>
         </div>
     {/* <div className="footer">
         <p>&#169Magnus Appel</p>
     </div> */}
-  </body> 
 </div>   
   );
 }
