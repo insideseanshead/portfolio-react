@@ -1,5 +1,6 @@
 import React from "react";
 import { Link, Route } from "react-router-dom";
+import "./style.css"
 
 function Contact(props) {
   return (
@@ -16,9 +17,9 @@ function Contact(props) {
         torquent per conubia nostra, per inceptos himenaeos. Etiam ornare rutrum felis at rhoncus.
         Etiam vel condimentum magna, quis tempor nulla.
       </p>
-      <Link to="/contact" role="button" className="btn btn-link">
+      {/* <Link to="/contact" role="button" className="btn btn-link">
         Learn Less
-      </Link>
+      </Link>    */}
     </div>
   );
 }
