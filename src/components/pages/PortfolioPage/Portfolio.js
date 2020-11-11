@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.css"
 
-function About() {
+function Portfolio() {
   return (
     <div>
       <h1>About Page</h1>
@@ -16,4 +16,4 @@ function About() {
   );
 }
 
-export default About;
+export default Portfolio;
