@@ -8,3 +8,11 @@ p {
     max-width: 350px;
     max-height: 350px;
 } 
+
+.port-link, a{
+    color: rgb(56, 56, 56);
+}
+
+h1 {
+    color: black;
+}

@@ -15,24 +15,24 @@ function Portfolio() {
             <div class="col-md-4 .col-sm-6">
                 <h5><a href="https://clubkemp.github.io/freshair/">Fresh Air Application</a></h5>
                 <img src={freshest} id="pic-one" alt="comet" />
-                <p>GitHub:<a href="https://github.com/clubkemp/freshair">Fresh Air Repository Link</a></p>
+                <p>GitHub:<a href="https://github.com/clubkemp/freshair" className="port-link">Fresh Air Repository Link</a></p>
             </div>
             <div class="col-md-4">
               <h5><a href="https://stark-island-65376.herokuapp.com/">Fantasy Character Manager Application</a></h5>
                 <img src={dnd} id="pic-two" alt="deployed app link" />
-                <p>GitHub:<a href="https://github.com/artuis/dnd-action-calculator">Fantasy Character Builder</a></p>
+                <p>GitHub:<a href="https://github.com/artuis/dnd-action-calculator" className="port-link">Fantasy Character Builder Link</a></p>
             </div>
     </div>
     <div class="row" id="rowThree">
         <div class="col-md-4 .col-sm-6">
           <h5><a href="https://magnus-jay.github.io/weather-dashboard/">Weather Dashboard Application</a></h5>
             <img src={weather} id="pic-three"  alt="moon" />
-            <p>GitHub:<a href="https://github.com/Magnus-Jay/weather-dashboard">Weather Dashboard</a></p>
+            <p>GitHub:<a href="https://github.com/Magnus-Jay/weather-dashboard" className="port-link">Weather Dashboard Link</a></p>
         </div>
         <div class="col-md-4 .col-sm-6">
           <h5><a href="https://magnus-jay.github.io/password--gen/">Password Generator Application</a></h5>
             <img src={passgen} id="pic-four" alt="stars and trees" />
-            <p>GitHub:<a href="https://github.com/Magnus-Jay/password--gen">Password Generator</a></p>
+            <p>GitHub:<a href="https://github.com/Magnus-Jay/password--gen" className="port-link">Password Generator Link</a></p>
         </div>
     </div>
     </div>
