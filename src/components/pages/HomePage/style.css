@@ -4,7 +4,7 @@ body {
     background-size: cover;
 }
 
-.row {
+#row-one {
     padding: 5px 10px 0 10px;
     /* border-radius: 30px; */
     background-color: gray;
