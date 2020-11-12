@@ -4,23 +4,48 @@ import "./style.css"
 
 function Contact(props) {
   return (
-    <div>
-      <h1>Contact Page</h1>
-      <p>
-        Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis molestie urna.
-        Aliquam semper ultrices varius. Aliquam faucibus sit amet magna a ultrices. Aenean
-        pellentesque placerat lacus imperdiet efficitur. In felis nisl, luctus non ante euismod,
-        tincidunt bibendum mi. In a molestie nisl, eu sodales diam. Nam tincidunt lacus quis magna
-        posuere, eget tristique dui dapibus. Maecenas fermentum elementum faucibus. Quisque nec
-        metus vestibulum, egestas massa eu, sollicitudin ipsum. Nulla facilisi. Sed ut erat ligula.
-        Nam tincidunt nunc in nibh dictum ullamcorper. Class aptent taciti sociosqu ad litora
-        torquent per conubia nostra, per inceptos himenaeos. Etiam ornare rutrum felis at rhoncus.
-        Etiam vel condimentum magna, quis tempor nulla.
-      </p>
-      {/* <Link to="/contact" role="button" className="btn btn-link">
-        Learn Less
-      </Link>    */}
-    </div>
+   <div> 
+    <div className="container">
+        <div className="row">
+          <div className="col-md-12" id="heading">
+            <h1>Contact
+              <hr />
+            </h1>
+          </div>
+          <div className="col-md-6">
+            <form>
+              <div className="form-group">
+                <label for="exampleFormControlInput1">Name</label>
+                <input type="email" className="form-control" id="exampleFormControlInput1" placeholder="name" />
+              </div>
+              <div className="form-group">
+                <label for="exampleFormControlInput1">Email</label>
+                <input type="email" className="form-control" id="exampleFormControlInput1" placeholder="name@example.com" />
+              </div>
+              <div className="form-group">
+                <label for="exampleFormControlTextarea1">Message</label>
+                <textarea className="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                <br />
+                <button className="btn btn-dark" type="submit">Submit</button>
+              </div>
+            </form>
+          </div>
+          <div className="col-md-6 contact-form">
+            <p>
+              Thank you for visiting my portfolio and I hope you enjoyed what you have seen so far. Please feel free to send me an email using the contact-form to the left. Additionally there is a link to my LinkedIn page where you can find additional information about myself and experience. 
+            </p>
+            <br />
+            <p>Check out my work history and my professional profile on:</p>
+            <button className="btn btn-dark" id="linked"><a href="https://www.linkedin.com/in/magnusappe/">LinkedIn Profile</a></button>
+            <br />
+            <br />
+            <p>Check out my Github profile:</p>
+            <button className="btn btn-dark" id="linked"><a href="https://github.com/Magnus-Jay">GitHub Profile</a></button>
+
+          </div>
+        </div>
+      </div>
+      </div>  
   );
 }
 

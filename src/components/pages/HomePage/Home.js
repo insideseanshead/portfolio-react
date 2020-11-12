@@ -26,7 +26,7 @@ function Home() {
 
         </div>
             <div className="col">
-            <img src={family} id="family" alt="family animated" />
+            <img src={family} id="family" alt="family animated" className="img-fluid" />
          </div>
         </div>
         </div>

@@ -1,8 +1,15 @@
-body {
+body, html {
   background-color: unset !important;
-  background-image: url("./grayscale.jpg")
+  background-image: url("./grayscale.jpg");
+  background-size: auto;
+  background-repeat: no-repeat;
+  height: 100%;
 }
 
 .body-image {
   background-image: url("./grayscale.jpg") 
+}
+
+h1 {
+  font-family: 'Merienda', cursive;
 }
