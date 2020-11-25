@@ -30,9 +30,6 @@ function Home() {
          </div>
         </div>
         </div>
-    {/* <div className="footer">
-        <p>&#169Magnus Appel</p>
-    </div> */}
 </div>   
   );
 }

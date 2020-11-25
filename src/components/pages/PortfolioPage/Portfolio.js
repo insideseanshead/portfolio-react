@@ -41,7 +41,7 @@ function Portfolio() {
             <img src={passgen} id="pic-four" alt="stars and trees" />
             <p>GitHub:<a href="https://github.com/Magnus-Jay/password--gen" className="port-link">Password Generator Link</a></p>
         </div>
-        <div class="col-md-2 .col-sm-6">
+        <div class="col-md-4 .col-sm-6">
           <h5><a href="https://magnus-jay.github.io/to-do-list/">To-do Application</a></h5>
             <img src={Todo} id="pic-six"  alt="moon" />
             <p>GitHub:<a href="https://github.com/Magnus-Jay/to-do-list" className="port-link">To-do-list Link</a></p>
