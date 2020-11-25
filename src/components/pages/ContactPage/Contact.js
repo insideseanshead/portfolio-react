@@ -13,7 +13,7 @@ function Contact(props) {
             </h1>
           </div>
           <div className="col-md-6">
-            <form>
+            {/* <form>
               <div className="form-group">
                 <label for="exampleFormControlInput1">Name</label>
                 <input type="email" className="form-control" id="exampleFormControlInput1" placeholder="name" />
@@ -28,9 +28,9 @@ function Contact(props) {
                 <br />
                 <button className="btn btn-dark" type="submit">Submit</button>
               </div>
-            </form>
+            </form> */}
           </div>
-          <div className="col-md-6 contact-form">
+          <div style = {{textAlign: "center"}}>
             <p>
               Thank you for visiting my portfolio and I hope you enjoyed what you have seen so far. Please feel free to send me an email using the contact-form to the left. Additionally there is a link to my LinkedIn page where you can find additional information about myself and experience. 
             </p>

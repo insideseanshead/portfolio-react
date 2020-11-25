@@ -16,3 +16,13 @@ p {
 h1 {
     color: black;
 }
+
+.contact-form {
+   padding-right: 400px;
+   /* margin-right: 300px; */
+}
+
+#heading {
+    text-align: center;
+    padding-top: 20px;
+}
