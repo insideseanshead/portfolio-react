@@ -1,4 +1,4 @@
-body, html {
+* body, html {
   background-color: unset !important;
   background-image: url("./grayscale.jpg");
   background-size: auto;
@@ -11,5 +11,5 @@ body, html {
 }
 
 h1 {
-  font-family: 'Merienda', cursive;
+  font-family: 'Roboto Slab', serif;
 }

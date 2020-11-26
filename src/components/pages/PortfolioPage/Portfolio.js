@@ -12,7 +12,7 @@ function Portfolio() {
      <div class="container">
         <div class="row" id="rowTwo">
             <div class="col-md-12" id="heading">
-                <h1 id="port">Portfolio: GitHub Projects</h1>
+                <h1 id="port">GitHub Projects</h1>
             </div>
             <div class="col-md-4 .col-sm-6">
                 <h5><a href="https://clubkemp.github.io/freshair/">Fresh Air Application</a></h5>

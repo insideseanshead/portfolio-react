@@ -30,7 +30,7 @@ function Contact(props) {
               </div>
             </form> */}
           </div>
-          <div style = {{textAlign: "center"}}>
+          <div className="col-md-6 contact-form">
             <p>
               Thank you for visiting my portfolio and I hope you enjoyed what you have seen so far. Please feel free to send me an email using the contact-form to the left. Additionally there is a link to my LinkedIn page where you can find additional information about myself and experience. 
             </p>

@@ -5,6 +5,7 @@ import Home from "./components/pages/HomePage/Home";
 import Portfolio from "./components/pages/PortfolioPage/Portfolio";
 import Contact from "./components/pages/ContactPage/Contact";
 import Footer from "./components/footer.js"
+import {Image, Video, Transformation, CloudinaryContext} from 'cloudinary-react';
 
 function App() {
   return (

@@ -1,32 +1,24 @@
 import React from "react";
 import "./style.css"
-import family from "../../../assets/family-bobs.png"
+// import family from "../../../assets/family-bobs.jpeg"
+// import linkedin from "../../../assets/linkedin.jpeg"
+// import rialto from "../../../assets/rialto.jpeg"
+// import rialto1 from "../../../assets/rialto1.png"
+import {Image, Video, Transformation, CloudinaryContext} from 'cloudinary-react';
+
 
 function Home() {
   return (
    <div>
         <div className="container">
-            <h1>Welcome!</h1>
+            <h1>Magnus Appel</h1>
         <div className="row" id="row-one">
             <div className="col">
-            <p>Welcome to my first fully built webpage using bootstrap! I am new to coding and have not had any experience
-                prior to attending this program. I am exctied to begin my journey and this first week has been quite intense
-                so far!</p>
-            <p>
-                I have lived in Washington State for the last five years and absolutelty love it! Originally I hail from NY
-                and have been enjoying the slower pace here, even if it just walking slower. Over the last five years as a
-                hobby I have worked to hone my craft in photography and look forward to building a website that will help
-                showcase some of my work!
-            </p>
-            <p>
-                I have quite a large family at home that are rooting me on to have success in this program. This includes my
-                wife, 4 children aged; 14,13,12, and 18 months! We also have one dog, three cats, and newly have become
-                parents to three very sweet goats!
-            </p>
-
-        </div>
-            <div className="col">
-            <img src={family} id="family" alt="family animated" className="img-fluid" />
+            {/* <img src={rialto1} id="rialto" alt="rialto beach" className="img-fluid" /> */}
+            <imgage src="https://res.cloudinary.com/dxnnw7qoy/image/upload/v1606342562/rialto1_wt8cmo.png" >
+                <Transformation height="800" width="800" crop="fill" effect="sepia" radius="20" />
+                <Transformation overlay="text:arial_60:Rialto Beach" gravity="north" y="20" />
+            </imgage>
          </div>
         </div>
         </div>
