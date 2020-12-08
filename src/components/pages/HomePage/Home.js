@@ -11,12 +11,12 @@ function Home() {
       <div className="container">
         <h1 id="home-heading">Magnus Appel</h1>
         <div className="row" id="row-one">
-          <div className="col">
+          <div className="col m-auto">
             <img
               src={rialto1}
               id="rialto"
               alt="rialto beach"
-              className="img-fluid"
+              className="d-block mx-auto img-fluid"
             />
           </div>
         </div>
