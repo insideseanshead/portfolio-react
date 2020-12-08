@@ -8,7 +8,7 @@ function Contact(props) {
     <div className="container">
         <div className="row">
           <div className="col-md-12" id="heading">
-            <h1>Contact
+            <h1 id="contact-heading">Contact
               <hr />
             </h1>
           </div>
