@@ -21,3 +21,6 @@
       <p>GitHub:<a href="https://github.com/Magnus-Jay/note-taker" className="port-link">Note Taker Link</a></p>
   </div>
 </div>   */}
+
+
+// dnd deployed "https://stark-island-65376.herokuapp.com/
