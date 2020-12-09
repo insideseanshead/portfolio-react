@@ -9,8 +9,8 @@ function Contact(props) {
         <div className="row">
           <div className="col-md-12" id="heading">
             <h1 id="contact-heading">Contact
-              <hr />
             </h1>
+            <hr />
           </div>
           <div className="col-md-6">
             {/* <form>
