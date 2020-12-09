@@ -16,7 +16,7 @@ function Home() {
               src={rialto1}
               id="rialto"
               alt="rialto beach"
-              className="d-block mx-auto img-fluid"
+              className="d-block mx-auto fluid"
             />
           </div>
         </div>
