@@ -13,22 +13,21 @@ function Contact(props) {
             <hr />
           </div>
           <div className="col-md-6">
-            {/* <form>
-              <div className="form-group">
-                <label for="exampleFormControlInput1">Name</label>
-                <input type="email" className="form-control" id="exampleFormControlInput1" placeholder="name" />
-              </div>
-              <div className="form-group">
-                <label for="exampleFormControlInput1">Email</label>
-                <input type="email" className="form-control" id="exampleFormControlInput1" placeholder="name@example.com" />
-              </div>
-              <div className="form-group">
-                <label for="exampleFormControlTextarea1">Message</label>
-                <textarea className="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                <br />
-                <button className="btn btn-dark" type="submit">Submit</button>
-              </div>
-            </form> */}
+            <h1>BIO</h1>
+          <p>Welcome to my first fully built webpage using bootstrap! I am new to coding and have not had any experience
+                prior to attending this program. I am exctied to begin my journey and this first week has been quite intense
+                so far!</p>
+            <p>
+                I have lived in Washington State for the last five years and absolutelty love it! Originally I hail from NY
+                and have been enjoying the slower pace here, even if it just walking slower. Over the last five years as a
+                hobby I have worked to hone my craft in photography and look forward to building a website that will help
+                showcase some of my work!
+            </p>
+            <p>
+                I have quite a large family at home that are rooting me on to have success in this program. This includes my
+                wife, 4 children aged; 14,13,12, and 18 months! We also have one dog, three cats, and newly have become
+                parents to three very sweet goats!
+            </p>
           </div>
           <div className="col-md-6 contact-form">
             <p>

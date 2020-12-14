@@ -12,3 +12,8 @@ a {
     text-align: right;
     padding-right: 420px;
 }
+
+.contact-form {
+    margin-top: 50px;
+    border-left: solid;
+}
