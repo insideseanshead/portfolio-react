@@ -33,7 +33,7 @@ function Contact(props) {
               Thank you for visiting my portfolio and I hope you enjoyed what you have seen so far. Please feel free to send me an email using the contact-form to the left. Additionally there is a link to my LinkedIn page where you can find additional information about myself and experience. 
             </p>
             {/* <br /> */}
-            <p>Email: <a href="mailto:magnus86@uw.edu">magnus86@uw.edu</a></p>
+            <p>Email:   <a href="mailto:magnus86@uw.edu">magnus86@uw.edu</a></p>
             <p>Check out my work history and my professional profile on:</p>
             <button className="btn btn-dark" id="linked"><a href="https://www.linkedin.com/in/magnusappe/">LinkedIn Profile</a></button>
             <br />
