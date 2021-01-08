@@ -6,6 +6,10 @@ import Note from "../../../assets/note-taker.png";
 import { Container } from "react-bootstrap";
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { fab } from '@fortawesome/free-brands-svg-icons';
+import { faGithub } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 function Portfolio() {
   return (
@@ -23,7 +27,7 @@ function Portfolio() {
           <i class="fa fa-globe mag-icon" aria-hidden="true"></i>
           </a >
           <a href="https://github.com/artuis/dnd-action-calculator" target="_blank" rel="noopener noreferrer">
-          <i class="fa fa-github-square mag-icon" aria-hidden="true"></i>
+          <FontAwesomeIcon icon={['fab', 'github']} />
           </a >
           </span>
           </h5 >  

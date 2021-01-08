@@ -6,6 +6,7 @@ import Portfolio from "./components/pages/PortfolioPage/Portfolio";
 import Contact from "./components/pages/ContactPage/Contact";
 import Footer from "./components/footer.js"
 import {Image, Video, Transformation, CloudinaryContext} from 'cloudinary-react';
+import { library } from '@fortawesome/fontawesome-svg-core';
 
 function App() {
   return (
