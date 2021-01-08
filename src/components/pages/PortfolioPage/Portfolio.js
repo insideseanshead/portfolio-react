@@ -2,20 +2,18 @@ import React from "react";
 import "./style.css";
 import freshest from "../../../assets/freshest.png";
 import dnd from "../../../assets/dnd.png";
-import weather from "../../../assets/weather_dash.png";
-import passgen from "../../../assets/pass_gen.png";
 import Note from "../../../assets/note-taker.png";
-import Todo from "../../../assets/todo.png";
+import { Container } from "react-bootstrap";
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
 function Portfolio() {
   return (
-    <div className="container">
-      <div className="row" id="rowTwo">
-        <div className="col-md-12 col-md-6" id="heading">
+    <Container className="container">
+      <Row className="row" id="rowTwo">
           <h1 id="port">GitHub Projects</h1>
-        </div>
-      </div>
-      <div className="row" id="rowTwo">
+      </Row>
+      <Row className="row" id="rowTwo">
         <div className="col-md-12 col-md-6" className="projectTwo">
           <img src={dnd} id="pic-two" alt="deployed app link" />
          <h5>
@@ -30,8 +28,8 @@ function Portfolio() {
           </span>
           </h5 >  
         </div>
-      </div>
-      <div className="row" id="rowThree">
+      </Row>
+      <Row className="row" id="rowThree">
         <div className=".col-md-12 col-md-6" className="projectOne">
           <img src={freshest} id="pic-one" alt="comet" />
           <h5>
@@ -46,8 +44,8 @@ function Portfolio() {
           </span>
           </h5 > 
         </div>
-      </div>
-      <div className="row" id="rowFour">
+      </Row>
+      <Row className="row" id="rowFour">
         <div className="col-md-12" className="projectThree">
           <img src={Note} id="pic-three" alt="deployed app link" />
           <h5>
@@ -62,25 +60,8 @@ function Portfolio() {
           </span>
           </h5 > 
         </div>
-      </div>
-      {/* <div class="row" id="rowThree">
-        <div class="col-md-4 .col-sm-6">
-          <h5><a href="https://magnus-jay.github.io/weather-dashboard/">Weather Dashboard Application</a></h5>
-            <img src={weather} id="pic-three"  alt="moon" />
-            <p>GitHub:<a href="https://github.com/Magnus-Jay/weather-dashboard" className="port-link">Weather Dashboard Link</a></p>
-        </div>
-        <div class="col-md-4 .col-sm-6">
-          <h5><a href="https://magnus-jay.github.io/password--gen/">Password Generator Application</a></h5>
-            <img src={passgen} id="pic-four" alt="stars and trees" />
-            <p>GitHub:<a href="https://github.com/Magnus-Jay/password--gen" className="port-link">Password Generator Link</a></p>
-        </div>
-        <div class="col-md-4 .col-sm-6">
-          <h5><a href="https://magnus-jay.github.io/to-do-list/">To-do Application</a></h5>
-            <img src={Todo} id="pic-six"  alt="moon" />
-            <p>GitHub:<a href="https://github.com/Magnus-Jay/to-do-list" className="port-link">To-do-list Link</a></p>
-        </div>  
-    </div> */}
-    </div>
+      </Row>
+    </Container>
   );
 }
 
