@@ -11,6 +11,8 @@ import { fab } from '@fortawesome/free-brands-svg-icons';
 import { faGithub } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
+// library.add(fab, faGithub)
+
 function Portfolio() {
   return (
     <Container className="container">
@@ -27,7 +29,7 @@ function Portfolio() {
           <i class="fa fa-globe mag-icon" aria-hidden="true"></i>
           </a >
           <a href="https://github.com/artuis/dnd-action-calculator" target="_blank" rel="noopener noreferrer">
-          <FontAwesomeIcon icon={['fab', 'github']} />
+          <FontAwesomeIcon icon="github" />
           </a >
           </span>
           </h5 >  

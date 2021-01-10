@@ -18,25 +18,17 @@ h1 {
     color: grey;
 }
 
-/* .img-fluid {
-    border-radius: 15px;
-    padding: 10px;
-    max-height: 800px;
-    max-width: 800px;
-    
-   
-} */
 p {
     color: black;
 }
 
-#rialto {
-    max-height: 600px;
-    max-width: 600px;
+/* #rialto {
+    max-height: 800px;
+    max-width: 800px;
     border-radius: 8px;
     justify-content: center;
     
-}
+} */
 
 
 .nav-link, .navbar-brand {
@@ -58,8 +50,3 @@ p {
     padding-right: 420px;
 }
 
-image {
-    max-height: 600px;
-    max-width: 600px;
-    border-radius: 8px; 
-}
