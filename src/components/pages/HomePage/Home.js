@@ -4,16 +4,18 @@ import "./style.css";
 import linkedin from "../../../assets/linkedin.jpeg";
 import rialto from "../../../assets/rialto.jpeg";
 import rialto1 from "../../../assets/rialto1.png";  
-import { Container } from "react-bootstrap";
+import { Container, Col } from "react-bootstrap";
 import Row from 'react-bootstrap/Row';
 import Image from 'react-bootstrap/Image'
 
 function Home() {
   return (
-    <Container fluid className='container'>
+    <Container className='container' fluid>
       <h1 id="home-heading">Magnus Appel</h1>
       <Row>
-      <Image id="rialto" src={rialto1} fluid rounded/>   
+        <Col md="auto0">
+          <Image className="img-fluid" src={rialto1} rounded/>
+        </Col>   
       </Row>    
     </Container>
   );

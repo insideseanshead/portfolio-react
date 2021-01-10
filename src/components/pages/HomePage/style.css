@@ -22,13 +22,13 @@ p {
     color: black;
 }
 
-/* #rialto {
-    max-height: 800px;
-    max-width: 800px;
+#rialto {
+    /* max-height: 800px;
+    max-width: 800px; */
     border-radius: 8px;
     justify-content: center;
     
-} */
+}
 
 
 .nav-link, .navbar-brand {
