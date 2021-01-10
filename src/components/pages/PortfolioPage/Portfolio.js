@@ -29,7 +29,7 @@ function Portfolio() {
           <i class="fa fa-globe mag-icon" aria-hidden="true"></i>
           </a >
           <a href="https://github.com/artuis/dnd-action-calculator" target="_blank" rel="noopener noreferrer">
-          <FontAwesomeIcon icon="github" />
+          <i class="fab fa-github mag-icon" aria-hidden="true"></i>
           </a >
           </span>
           </h5 >  
