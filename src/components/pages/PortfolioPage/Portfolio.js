@@ -45,7 +45,7 @@ function Portfolio() {
           <i class="fa fa-globe mag-icon" aria-hidden="true"></i>
           </a >
           <a href="https://github.com/clubkemp/freshair" target="_blank" rel="noopener noreferrer">
-          <i class="fa fa-github-square mag-icon" aria-hidden="true"></i>
+          <i class="fab fa-github mag-icon" aria-hidden="true"></i>
           </a >
           </span>
           </h5 > 
@@ -61,7 +61,7 @@ function Portfolio() {
           <i class="fa fa-globe mag-icon" aria-hidden="true"></i>
           </a >
           <a href="https://github.com/Magnus-Jay/note-taker" target="_blank" rel="noopener noreferrer">
-          <i class="fa fa-github-square mag-icon" aria-hidden="true"></i>
+          <i class="fab fa-github mag-icon" aria-hidden="true"></i>
           </a >
           </span>
           </h5 > 
