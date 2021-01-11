@@ -13,7 +13,7 @@ function Home() {
     <Container className='container' fluid>
       <h1 id="home-heading">Magnus Appel</h1>
       <Row>
-        <Col md="auto0">
+        <Col md="auto">
           <Image className="img-fluid" src={rialto1} rounded/>
         </Col>   
       </Row>    

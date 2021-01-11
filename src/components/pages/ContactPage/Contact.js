@@ -1,16 +1,18 @@
 import React from "react";
 import { Link, Route } from "react-router-dom";
 import "./style.css"
+import { Container, Col } from "react-bootstrap";
+import Row from 'react-bootstrap/Row';
 
 function Contact(props) {
   return (
-   <div> 
+   <Container> 
     <div className="container">
-        <div className="row">
-          <div className="col-md-12" id="heading">
+        <Row className="row">
+          <Col className="col-md-12" id="heading">
             <hr />
-          </div>
-          <div className="col-md-6">
+          </ Col>
+          <Col className="col-md-6">
             <h1>BIO</h1>
           <p>Welcome to my first fully built webpage using bootstrap! I am new to coding and have not had any experience
                 prior to attending this program. I am exctied to begin my journey and this first week has been quite intense
@@ -26,8 +28,8 @@ function Contact(props) {
                 wife, 4 children aged; 14,13,12, and 18 months! We also have one dog, three cats, and newly have become
                 parents to three very sweet goats!
             </p>
-          </div>
-          <div className="col-md-6 contact-form">
+          </ Col>
+          <Col className="col-md-6 contact-form">
           <h1>Contact</h1>
             <p>
               Thank you for visiting my portfolio and I hope you enjoyed what you have seen so far. Please feel free to send me an email using the contact-form to the left. Additionally there is a link to my LinkedIn page where you can find additional information about myself and experience. 
@@ -41,10 +43,10 @@ function Contact(props) {
             <p>Check out my Github profile:</p>
             <button className="btn btn-dark" id="linked"><a href="https://github.com/Magnus-Jay">GitHub Profile</a></button>
 
-          </div>
-        </div>
+          </ Col>
+        </ Row>
       </div>
-      </div>  
+      </ Container>  
   );
 }
 

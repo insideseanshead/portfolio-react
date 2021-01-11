@@ -20,7 +20,7 @@ function Portfolio() {
           <h1 id="port">GitHub Projects</h1>
       </Row>
       <Row className="row" id="rowTwo">
-        <div className="col-md-12 col-md-6" className="projectTwo">
+        <div className="col-md-6" className="projectTwo">
           <img src={dnd} id="pic-two" alt="deployed app link" />
          <h5>
            <span>
@@ -36,7 +36,7 @@ function Portfolio() {
         </div>
       </Row>
       <Row className="row" id="rowThree">
-        <div className=".col-md-12 col-md-6" className="projectOne">
+        <div className="col-md-6" className="projectOne">
           <img src={freshest} id="pic-one" alt="comet" />
           <h5>
            <span>
@@ -52,7 +52,7 @@ function Portfolio() {
         </div>
       </Row>
       <Row className="row" id="rowFour">
-        <div className="col-md-12" className="projectThree">
+        <div className="col-md-6" className="projectThree">
           <img src={Note} id="pic-three" alt="deployed app link" />
           <h5>
            <span>
