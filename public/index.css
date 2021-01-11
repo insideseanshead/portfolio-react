@@ -1,15 +1,15 @@
 * body, html {
   background-color: unset !important;
   background-image: url("./grayscale.jpg");
-  /* background-size: auto; */
-  /* background-repeat: repeat-y; */
+  /* background-size: auto;
+  background-repeat: repeat-y; */
   height: 100%;
 }
 
 .body-image {
   background-image: url("./grayscale.jpg"); 
   background-size: cover;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 h1 {
