@@ -14,7 +14,7 @@ function Home() {
       <h1 id="home-heading">Magnus Appel</h1>
       <Row>
         <Col md="auto">
-          <Image className="img-fluid" src={rialto1} rounded/>
+          <Image className="responsive" src={rialto1} rounded/>
         </Col>   
       </Row>    
     </Container>

@@ -15,12 +15,12 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 function Portfolio() {
   return (
-    <Container className="container">
+    <Container className="container" fluid>
       <Row className="row" id="rowTwo">
           <h1 id="port">GitHub Projects</h1>
       </Row>
       <Row className="row" id="rowTwo">
-        <div className="col-md-6" className="projectTwo">
+        <Col md="auto" className="projectTwo">
           <img src={dnd} id="pic-two" alt="deployed app link" />
          <h5>
            <span>
@@ -33,10 +33,10 @@ function Portfolio() {
           </a >
           </span>
           </h5 >  
-        </div>
+        </ Col>
       </Row>
       <Row className="row" id="rowThree">
-        <div className="col-md-6" className="projectOne">
+        <Col md="auto" className="projectOne">
           <img src={freshest} id="pic-one" alt="comet" />
           <h5>
            <span>
@@ -49,10 +49,10 @@ function Portfolio() {
           </a >
           </span>
           </h5 > 
-        </div>
+        </ Col>
       </Row>
       <Row className="row" id="rowFour">
-        <div className="col-md-6" className="projectThree">
+        <Col md="auto" className="projectThree">
           <img src={Note} id="pic-three" alt="deployed app link" />
           <h5>
            <span>
@@ -65,7 +65,7 @@ function Portfolio() {
           </a >
           </span>
           </h5 > 
-        </div>
+        </ Col>
       </Row>
     </Container>
   );

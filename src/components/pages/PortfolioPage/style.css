@@ -9,6 +9,7 @@ p {
     max-width: 350px;
     min-height: 150px;
     max-height: 350px;
+    justify-content: center;
 } 
 
 .port-link, a{
@@ -25,13 +26,8 @@ h1 {
     padding-top: 40px;
     padding-bottom: 40px
 }
-/* .projectOne, .projectTwo, .projectThree{
-    margin: auto;
-    width: 50%;
-    padding: 10px;
-} */
 
-.row {
+/* .row {
     display: flex;
     justify-content: center;
     align-content: center;
@@ -42,7 +38,7 @@ h1 {
     display: flex;
     justify-content: center;
     align-content: center;
-}
+} */
 
 #port {
     display: flex;
@@ -61,4 +57,8 @@ span {
     display: flex;
     justify-content: center;
     align-content: center;
+}
+
+.row {
+    justify-content: center;
 }
